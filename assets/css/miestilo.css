@@ -1,0 +1,90 @@
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+.encabezado {
+  background-color: #d164a7;
+}
+header {
+  background-color: #d164a7;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.n {
+  padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+
+footer {
+  background-color: #af4c89; /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  max-width: 800px; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+}
+
+nav {
+  background-color: #af4c61;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #822f59;
+}
+
+.logo img {
+  display: blocks; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /*Centrar las imágenes horizontalmente*/
+  margin-top: 1%;
+  width: 200px; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  border: 3px solid #bd458f; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+  border-radius: 20px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+.imagen img {
+  display: blocks; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /*Centrar las imágenes horizontalmente*/
+  margin-top: 1%;
+  width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  height: 50%;
+  border: 3px solid #bd4595; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+  border-radius: 20px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+
+
+/*Estilos de la pagina principal*/
+
+
+h1{
+  display: flex ;
+  text-align: center;
+}
